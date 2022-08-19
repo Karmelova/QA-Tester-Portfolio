@@ -4,7 +4,7 @@ My name is Kamila Marcinek. I started my adventure with computer science in tech
 
 ## Tools
 - [Lightshot](https://app.prntscr.com/) - Screen capture software
-- [Screencast-O-Matic](https://screencast-o-matic.com/) - Screen record software
+- [Screencast-O-Matic](https://screencast-o-matic.com/), [OBS](https://obsproject.com/) - Screen record software
 - [Postman](https://www.postman.com/), [Swagger](https://swagger.io/) - Testing tools for API
 - [Assembla](https://get.assembla.com/), [Jira](https://www.atlassian.com/pl/software/jira) - Issue tracking and project management tool for developers
 - [Generator danych testowych](https://testerzy.pl/narzedzia/generowanie-danych-bezposrednio-w-formularzach-przegladarki) - A tool for generating Polish test data
