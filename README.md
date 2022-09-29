@@ -9,11 +9,12 @@ My name is Kamila Marcinek. I started my adventure with computer science in tech
 - [Assembla](https://get.assembla.com/), [Jira](https://www.atlassian.com/pl/software/jira) - Issue tracking and project management tool for developers
 - [Generator danych testowych](https://testerzy.pl/narzedzia/generowanie-danych-bezposrednio-w-formularzach-przegladarki) - A tool for generating Polish test data
 - [draw.io](https://app.diagrams.net/) - Flowchart maker and online diagram software
+- [Jenkins](https://www.jenkins.io/) - Automation server used to building version
 - Github
 
 ## Tech skills
 - DevTools
-- SQL, JavaScript, C#, HTML, CSS
+- SQL, JavaScript, C#, HTML, CSS, Cypress (in progress)
 - Software testing
 - Reporting bugs
 - Creating test cases
