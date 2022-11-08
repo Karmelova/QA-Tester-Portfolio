@@ -1,0 +1,2979 @@
+{
+	"info": {
+		"_postman_id": "528514ca-d71c-4fd7-84f6-d967473b9d54",
+		"name": "MEDchart - autofill application",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18701366"
+	},
+	"item": [
+		{
+			"name": "Create new event types",
+			"item": [
+				{
+					"name": "Konsultacja internistyczna",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"uuid\": \"{{eventUuid}}\",\r\n  \"name\": \"Konsultacja internistyczna (20m)\",\r\n  \"duration\": 20\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{basic-url}}api/event-type",
+							"host": [
+								"{{basic-url}}api"
+							],
+							"path": [
+								"event-type"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Konsultacja psychologiczna",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"uuid\": \"{{eventUuid}}\",\r\n  \"name\": \"Konsultacja psychologiczna (60m)\",\r\n  \"duration\": 60\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{basic-url}}api/event-type",
+							"host": [
+								"{{basic-url}}api"
+							],
+							"path": [
+								"event-type"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Konsultacja psychologiczna (online)",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"uuid\": \"{{eventUuid}}\",\r\n  \"name\": \"Konsultacja psychologiczna - online (60m)\",\r\n  \"duration\": 60\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{basic-url}}api/event-type",
+							"host": [
+								"{{basic-url}}api"
+							],
+							"path": [
+								"event-type"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Konsultacja fizjoterapeutyczna",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"uuid\": \"{{eventUuid}}\",\r\n  \"name\": \"Konsultacja fizjoterapeutyczna (45m)\",\r\n  \"duration\": 45\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{basic-url}}api/event-type",
+							"host": [
+								"{{basic-url}}api"
+							],
+							"path": [
+								"event-type"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Konsultacja ginekologiczna",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"uuid\": \"{{eventUuid}}\",\r\n  \"name\": \"Konsultacja ginekologiczna (15m)\",\r\n  \"duration\": 15\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{basic-url}}api/event-type",
+							"host": [
+								"{{basic-url}}api"
+							],
+							"path": [
+								"event-type"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Konsultacja ginekologiczna z USG",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"uuid\": \"{{eventUuid}}\",\r\n  \"name\": \"Konsultacja ginekologiczna z USG (25m)\",\r\n  \"duration\": 25\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{basic-url}}api/event-type",
+							"host": [
+								"{{basic-url}}api"
+							],
+							"path": [
+								"event-type"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Konsultacja dermatologiczna",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"uuid\": \"{{eventUuid}}\",\r\n  \"name\": \"Konsultacja dermatologiczna (10m)\",\r\n  \"duration\": 10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{basic-url}}api/event-type",
+							"host": [
+								"{{basic-url}}api"
+							],
+							"path": [
+								"event-type"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Botoks",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"uuid\": \"{{eventUuid}}\",\r\n  \"name\": \"Botoks (30m)\",\r\n  \"duration\": 30\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{basic-url}}api/event-type",
+							"host": [
+								"{{basic-url}}api"
+							],
+							"path": [
+								"event-type"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Badania przedoperacyjne",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"uuid\": \"{{eventUuid}}\",\r\n  \"name\": \"Badania przedoperacyjne (40m)\",\r\n  \"duration\": 40\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{basic-url}}api/event-type",
+							"host": [
+								"{{basic-url}}api"
+							],
+							"path": [
+								"event-type"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Chirurgiczne usunięcie zmiany",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"uuid\": \"{{eventUuid}}\",\r\n  \"name\": \"Chirurgiczne usunięcie zmiany (60m)\",\r\n  \"duration\": 60\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{basic-url}}api/event-type",
+							"host": [
+								"{{basic-url}}api"
+							],
+							"path": [
+								"event-type"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var uuid = require('uuid');",
+							"var myUUID = uuid.v4();",
+							"pm.variables.set(\"eventUuid\", myUUID);",
+							"",
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var basicurl = pm.variables.get(\"basic-url\")+\"api/event-type/\"+pm.variables.get(\"eventUuid\");",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Create new patients",
+			"item": [
+				{
+					"name": "Edyta Górska (68090819144)",
+					"item": [
+						{
+							"name": "Create patient",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"var uuid = require('uuid');\r",
+											"var myUUID = uuid.v4();\r",
+											"\r",
+											"pm.variables.set(\"patientUuid\", myUUID);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var currentPatientCard = parseInt(pm.variables.get(\"patientCard\"));\r",
+											"currentPatientCard++;\r",
+											"pm.variables.set(\"patientCard\", currentPatientCard);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"firstName\": \"Edyta\",\r\n  \"lastName\": \"Górska\",\r\n  \"country\": \"Polska\",\r\n  \"city\": \"Gdańsk\",\r\n  \"street\": \"Marusarzówny Heleny\",\r\n  \"streetNo\": \"17\",\r\n  \"streetNr\": \"\",\r\n  \"email\": \"{{email}}\",\r\n  \"phone\": \"{{telephone}}\",\r\n  \"zip\": \"80-288\",\r\n  \"pesel\": \"68090819144\",\r\n  \"korCountry\": null,\r\n  \"korCity\": null,\r\n  \"korStreet\": null,\r\n  \"korStreetNo\": null,\r\n  \"korStreetNr\": null,\r\n  \"korPhone\": null,\r\n  \"korZip\": null,\r\n  \"nfz\": \"16\",\r\n  \"dateBirth\": \"1968-08-08\",\r\n  \"latitude\": null,\r\n  \"longitude\": null,\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"deleted\": \"no\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"userId\": null,\r\n  \"gender\": \"F\",\r\n  \"identityCard\": \"AMJ 452187\",\r\n  \"passportNumber\": \"{{$randomBankAccountIban}}\",\r\n  \"insuranceNumber\": \"{{$timestamp}}\",\r\n  \"canSendSms\": \"yes\",\r\n  \"canSendEmail\": \"0\",\r\n  \"cardNumber\": \"{{patientCard}}\",\r\n  \"status\": \"exist\",\r\n  \"payerType\": [\r\n    1\r\n  ],\r\n  \"payerTypeDescription\": \"\",\r\n  \"blacklisted\": false,\r\n  \"patientNotes\": \"Przychodzi zawsze około 20 minut przed czasem.\",\r\n  \"medicalNotes\": \"Miewa często migreny.\",\r\n  \"patientRepresentative\": \"Anita Górska, Marcin Górski\",\r\n  \"ice\": \"{{$randomBankAccount}}\",\r\n  \"contactDataDescription\": \"\",\r\n  \"originCountry\": \"Polska\",\r\n  \"identityType\": null,\r\n  \"identityNumber\": null,\r\n  \"passportCountryCode\": null,\r\n  \"reimbursementDocument\": null,\r\n  \"reimbursementDocumentNumber\": null,\r\n  \"reimbursementCountryCode\": null,\r\n  \"reimbursementNfzCode\": null,\r\n  \"otherAddress\": 0,\r\n  \"icd10Remarks\": \"\",\r\n  \"externalId\": \"{{patientUuid}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add allergy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"allergy\": \"Baszcz Sosnowskiego\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/allergy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"allergy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add allergy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"allergy\": \"Kocia sierść\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/allergy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"allergy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add allergy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"allergy\": \"Jad pszczół\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/allergy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"allergy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add hospital treatment",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"description\": \"Rekonwalescencja powypadkowa\",\r\n  \"startDate\": \"2005-12-01\",\r\n  \"endDate\": \"2005-12-10\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/hospital-treatments",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"hospital-treatments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add hospital treatment",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"description\": \"Rekonwalescencja poporodowa\",\r\n  \"startDate\": \"1989-01-27\",\r\n  \"endDate\": \"1989-02-10\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/hospital-treatments",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"hospital-treatments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add icd10 code",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"code\": \"E10.09\",\r\n  \"name\": \"E10.9: Cukrzyca insulinozależna bez powikłań\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"deleted\": false,\r\n  \"alert\": true,\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"description\": \"Choroba uwarunkowana genetycznie\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/icd10",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"icd10"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add icd9 code",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"treatment\": \"69.7 - Wprowadzenie wewnątrzmacicznej wkładki antykoncepcyjnej\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"duringVisit\": \"no\",\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\",\r\n  \"date\": \"2005-06-14\",\r\n  \"comments\": \"Wkładka Kyleena - ważność 5 lat\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/treatments",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"treatments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add pregnancy information",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"cardId\": \"0\",\r\n  \"dateOm\": \"2000-02-21\",\r\n  \"dateOmDescription\": \"Miesiączka trwała 3 dni. Nie pojawiły się żadne dolegliwości odbiegające od normy\",\r\n  \"datePm\": \"13\",\r\n  \"menstruationRegular\": \"yes\",\r\n  \"menstruationComments\": \"Pacjentka po menopauzie\",\r\n  \"pregnancies\": \"1\",\r\n  \"pregnanciesNatural\": \"1\",\r\n  \"pregnanciesCesarean\": \"0\",\r\n  \"pregnanciesMiscarriage\": \"0\",\r\n  \"pregnanciesComments\": \"Urodziła w 1989 roku. Przy porodzie nie wystąpiły żadne komplikacje.\",\r\n  \"comments\": null,\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeMod\": \"{{currentDate}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/pregnancy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"pregnancy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add other informations",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"vaccineSerum\": \"Gruźlica, zakażenia pneumokokowe, błonica, krztusiec, polio, odra, świnka, różyczka, tężec, wirusowe zapalenie wątroby typu b, zakażenie przeciwko Haeopmhilius influenzae typu B, ospa wietrzna, kleszczowe zapalenie mózgu, wirusowe zapalenie wątroby typu A, grypa, zakażenie rotawirusowe, zakażenia meningokokowe\",\r\n  \"loadHereditary\": \"cukrzyca insulinozależna\",\r\n  \"environmentalAssessment\": \"Nie wymaga dodatkowej pomocy w codziennych czynnościach\",\r\n  \"basicParameters\": \"W pełni sprawności motorycznej\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/other-informations",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"other-informations"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Aron Kozłowski (46041227251)",
+					"item": [
+						{
+							"name": "Create patient",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"var uuid = require('uuid');\r",
+											"var myUUID = uuid.v4();\r",
+											"\r",
+											"pm.variables.set(\"patientUuid\", myUUID);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var currentPatientCard = parseInt(pm.variables.get(\"patientCard\"));\r",
+											"currentPatientCard++;\r",
+											"pm.variables.set(\"patientCard\", currentPatientCard);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"firstName\": \"Aron\",\r\n  \"lastName\": \"Kozłowski\",\r\n  \"country\": \"Polska\",\r\n  \"city\": \"Lublin\",\r\n  \"street\": \"T. Zana\",\r\n  \"streetNo\": \"111\",\r\n  \"streetNr\": \"\",\r\n  \"email\": \"{{email}}\",\r\n  \"phone\": \"{{telephone}}\",\r\n  \"zip\": \"20-960\",\r\n  \"pesel\": \"46041227251\",\r\n  \"korCountry\": null,\r\n  \"korCity\": null,\r\n  \"korStreet\": null,\r\n  \"korStreetNo\": null,\r\n  \"korStreetNr\": null,\r\n  \"korPhone\": null,\r\n  \"korZip\": null,\r\n  \"nfz\": \"03\",\r\n  \"dateBirth\": \"1946-04-12\",\r\n  \"latitude\": null,\r\n  \"longitude\": null,\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"deleted\": \"no\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"userId\": null,\r\n  \"gender\": \"M\",\r\n  \"identityCard\": \"AMJ 516898\",\r\n  \"passportNumber\": \"{{$randomBankAccountIban}}\",\r\n  \"insuranceNumber\": \"{{$timestamp}}\",\r\n  \"canSendSms\": \"yes\",\r\n  \"canSendEmail\": \"0\",\r\n  \"cardNumber\": \"{{patientCard}}\",\r\n  \"status\": \"exist\",\r\n  \"payerType\": [\r\n    1\r\n  ],\r\n  \"payerTypeDescription\": \"\",\r\n  \"blacklisted\": true,\r\n  \"patientNotes\": \"Pacjent notorycznie spóźnia się na wizyty w granicach 10 minut.\",\r\n  \"medicalNotes\": \"Lordoza\",\r\n  \"patientRepresentative\": \"\",\r\n  \"ice\": \"{{$randomBankAccount}}\",\r\n  \"contactDataDescription\": \"\",\r\n  \"originCountry\": \"Polska\",\r\n  \"identityType\": null,\r\n  \"identityNumber\": null,\r\n  \"passportCountryCode\": null,\r\n  \"reimbursementDocument\": null,\r\n  \"reimbursementDocumentNumber\": null,\r\n  \"reimbursementCountryCode\": null,\r\n  \"reimbursementNfzCode\": null,\r\n  \"otherAddress\": 0,\r\n  \"icd10Remarks\": \"\",\r\n  \"externalId\": \"{{patientUuid}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add allergy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"allergy\": \"Baszcz Sosnowskiego\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/allergy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"allergy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add allergy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"allergy\": \"Jad pszczół\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/allergy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"allergy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add hospital treatment",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"description\": \"Rekonwalescencja powypadkowa\",\r\n  \"startDate\": \"2005-12-01\",\r\n  \"endDate\": \"2005-12-10\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/hospital-treatments",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"hospital-treatments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add hospital treatment",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"description\": \"Rekonwalescencja powypadkowa\",\r\n  \"startDate\": \"1989-01-27\",\r\n  \"endDate\": \"1989-02-10\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/hospital-treatments",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"hospital-treatments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add icd10 code",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"code\": \"E10.09\",\r\n  \"name\": \"E10.9: Cukrzyca insulinozależna bez powikłań\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"deleted\": false,\r\n  \"alert\": true,\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"description\": \"Choroba uwarunkowana genetycznie\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/icd10",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"icd10"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add other informations",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"vaccineSerum\": \"Gruźlica, zakażenia pneumokokowe, błonica, krztusiec, polio, odra, świnka, różyczka, tężec, wirusowe zapalenie wątroby typu b, zakażenie przeciwko Haeopmhilius influenzae typu B, ospa wietrzna, kleszczowe zapalenie mózgu, wirusowe zapalenie wątroby typu A, grypa, zakażenie rotawirusowe, zakażenia meningokokowe\",\r\n  \"loadHereditary\": \"cukrzyca insulinozależna\",\r\n  \"environmentalAssessment\": \"Nie wymaga dodatkowej pomocy w codziennych czynnościach\",\r\n  \"basicParameters\": \"W pełni sprawności motorycznej\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/other-informations",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"other-informations"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Tymon Kowalski (06302551819)",
+					"item": [
+						{
+							"name": "Create patient",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"var uuid = require('uuid');\r",
+											"var myUUID = uuid.v4();\r",
+											"\r",
+											"pm.variables.set(\"patientUuid\", myUUID);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var currentPatientCard = parseInt(pm.variables.get(\"patientCard\"));\r",
+											"currentPatientCard++;\r",
+											"pm.variables.set(\"patientCard\", currentPatientCard);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"firstName\": \"Tymon\",\r\n  \"lastName\": \"Kowalski\",\r\n  \"country\": \"Polska\",\r\n  \"city\": \"Lublin\",\r\n  \"street\": \"Ćwiklińskiej Mieczysławy\",\r\n  \"streetNo\": \"98\",\r\n  \"streetNr\": \"\",\r\n  \"email\": \"{{email}}\",\r\n  \"phone\": \"{{telephone}}\",\r\n  \"zip\": \"20-067\",\r\n  \"pesel\": \"06302551819\",\r\n  \"korCountry\": null,\r\n  \"korCity\": null,\r\n  \"korStreet\": null,\r\n  \"korStreetNo\": null,\r\n  \"korStreetNr\": null,\r\n  \"korPhone\": null,\r\n  \"korZip\": null,\r\n  \"nfz\": \"03\",\r\n  \"dateBirth\": \"2006-10-25\",\r\n  \"latitude\": null,\r\n  \"longitude\": null,\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"deleted\": \"no\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"userId\": null,\r\n  \"gender\": \"M\",\r\n  \"identityCard\": \"\",\r\n  \"passportNumber\": \"{{$randomBankAccountIban}}\",\r\n  \"insuranceNumber\": \"{{$timestamp}}\",\r\n  \"canSendSms\": \"yes\",\r\n  \"canSendEmail\": \"0\",\r\n  \"cardNumber\": \"{{patientCard}}\",\r\n  \"status\": \"exist\",\r\n  \"payerType\": [\r\n    1\r\n  ],\r\n  \"payerTypeDescription\": \"\",\r\n  \"blacklisted\": true,\r\n  \"patientNotes\": \"\",\r\n  \"medicalNotes\": \"\",\r\n  \"patientRepresentative\": \"Weronika Kowalska\",\r\n  \"ice\": \"{{$randomBankAccount}}\",\r\n  \"contactDataDescription\": \"\",\r\n  \"originCountry\": \"Polska\",\r\n  \"identityType\": null,\r\n  \"identityNumber\": null,\r\n  \"passportCountryCode\": null,\r\n  \"reimbursementDocument\": null,\r\n  \"reimbursementDocumentNumber\": null,\r\n  \"reimbursementCountryCode\": null,\r\n  \"reimbursementNfzCode\": null,\r\n  \"otherAddress\": 0,\r\n  \"icd10Remarks\": \"\",\r\n  \"externalId\": \"{{patientUuid}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add allergy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"allergy\": \"Baszcz Sosnowskiego\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/allergy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"allergy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add icd10 code",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"code\": \"S42.4\",\r\n  \"name\": \"S42.4 - Złamanie nasady dalszej kości ramiennej\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"deleted\": false,\r\n  \"alert\": false,\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"description\": \"Załamanie w wyniku gry w piłkę nożną. Do złamania doszło w maju 2019 roku\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/icd10",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"icd10"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add other informations",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"vaccineSerum\": \"Gruźlica, zakażenia pneumokokowe, błonica, krztusiec, polio, odra, świnka, różyczka, ospa wietrzna, kleszczowe zapalenie mózgu, wirusowe zapalenie wątroby typu A, zakażenie rotawirusowe\",\r\n  \"loadHereditary\": \"\",\r\n  \"environmentalAssessment\": \"Nie wymaga dodatkowej pomocy w codziennych czynnościach\",\r\n  \"basicParameters\": \"W pełni sprawności motorycznej\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/other-informations",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"other-informations"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Konstanty Szczepański (04290292839)",
+					"item": [
+						{
+							"name": "Create patient",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"var uuid = require('uuid');\r",
+											"var myUUID = uuid.v4();\r",
+											"\r",
+											"pm.variables.set(\"patientUuid\", myUUID);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var currentPatientCard = parseInt(pm.variables.get(\"patientCard\"));\r",
+											"currentPatientCard++;\r",
+											"pm.variables.set(\"patientCard\", currentPatientCard);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"firstName\": \"Konstanty\",\r\n  \"lastName\": \"Szczepański\",\r\n  \"country\": \"Polska\",\r\n  \"city\": \"Tarnowskie Góry\",\r\n  \"street\": \"Łotewska\",\r\n  \"streetNo\": \"121\",\r\n  \"streetNr\": \"\",\r\n  \"email\": \"{{email}}\",\r\n  \"phone\": \"{{telephone}}\",\r\n  \"zip\": \"42-612\",\r\n  \"pesel\": \"04290292839\",\r\n  \"korCountry\": null,\r\n  \"korCity\": null,\r\n  \"korStreet\": null,\r\n  \"korStreetNo\": null,\r\n  \"korStreetNr\": null,\r\n  \"korPhone\": null,\r\n  \"korZip\": null,\r\n  \"nfz\": \"12\",\r\n  \"dateBirth\": \"2004-08-02\",\r\n  \"latitude\": null,\r\n  \"longitude\": null,\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"deleted\": \"no\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"userId\": null,\r\n  \"gender\": \"M\",\r\n  \"identityCard\": \"AMJ 103319\",\r\n  \"passportNumber\": \"{{$randomBankAccountIban}}\",\r\n  \"insuranceNumber\": \"{{$timestamp}}\",\r\n  \"canSendSms\": \"yes\",\r\n  \"canSendEmail\": \"0\",\r\n  \"cardNumber\": \"{{patientCard}}\",\r\n  \"status\": \"exist\",\r\n  \"payerType\": [\r\n    1\r\n  ],\r\n  \"payerTypeDescription\": \"\",\r\n  \"blacklisted\": true,\r\n  \"patientNotes\": \"\",\r\n  \"medicalNotes\": \"\",\r\n  \"patientRepresentative\": \"Maciej Szczepański\",\r\n  \"ice\": \"{{$randomBankAccount}}\",\r\n  \"contactDataDescription\": \"\",\r\n  \"originCountry\": \"Polska\",\r\n  \"identityType\": null,\r\n  \"identityNumber\": null,\r\n  \"passportCountryCode\": null,\r\n  \"reimbursementDocument\": null,\r\n  \"reimbursementDocumentNumber\": null,\r\n  \"reimbursementCountryCode\": null,\r\n  \"reimbursementNfzCode\": null,\r\n  \"otherAddress\": 0,\r\n  \"icd10Remarks\": \"\",\r\n  \"externalId\": \"{{patientUuid}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add allergy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"allergy\": \"Jad pszczół\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/allergy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"allergy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add icd10 code",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"code\": \"S42.4\",\r\n  \"name\": \"S42.4 - Złamanie nasady dalszej kości ramiennej\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"deleted\": false,\r\n  \"alert\": false,\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"description\": \"Załamanie w wyniku gry w piłkę nożną. Do złamania doszło w maju 2017 roku\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/icd10",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"icd10"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add other informations",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"vaccineSerum\": \"Gruźlica, zakażenia pneumokokowe, błonica, krztusiec, polio, odra, świnka, różyczka, ospa wietrzna, kleszczowe zapalenie mózgu, wirusowe zapalenie wątroby typu A, zakażenie rotawirusowe\",\r\n  \"loadHereditary\": \"Daltonizm\",\r\n  \"environmentalAssessment\": \"Nie wymaga dodatkowej pomocy w codziennych czynnościach\",\r\n  \"basicParameters\": \"W pełni sprawności motorycznej\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/other-informations",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"other-informations"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Henryk Jaworski (18281082431)",
+					"item": [
+						{
+							"name": "Create patient",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"var uuid = require('uuid');\r",
+											"var myUUID = uuid.v4();\r",
+											"\r",
+											"pm.variables.set(\"patientUuid\", myUUID);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var currentPatientCard = parseInt(pm.variables.get(\"patientCard\"));\r",
+											"currentPatientCard++;\r",
+											"pm.variables.set(\"patientCard\", currentPatientCard);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"firstName\": \"Henryk\",\r\n  \"lastName\": \"Jaworski\",\r\n  \"country\": \"Polska\",\r\n  \"city\": \"Warszawa\",\r\n  \"street\": \"Mehoffera Józefa\",\r\n  \"streetNo\": \"12\",\r\n  \"streetNr\": \"15/4\",\r\n  \"email\": \"{{email}}\",\r\n  \"phone\": \"{{telephone}}\",\r\n  \"zip\": \"20-960\",\r\n  \"pesel\": \"18281082431\",\r\n  \"korCountry\": null,\r\n  \"korCity\": null,\r\n  \"korStreet\": null,\r\n  \"korStreetNo\": null,\r\n  \"korStreetNr\": null,\r\n  \"korPhone\": null,\r\n  \"korZip\": null,\r\n  \"nfz\": \"07\",\r\n  \"dateBirth\": \"2018-08-10\",\r\n  \"latitude\": null,\r\n  \"longitude\": null,\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"deleted\": \"no\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"userId\": null,\r\n  \"gender\": \"M\",\r\n  \"identityCard\": \"\",\r\n  \"passportNumber\": \"{{$randomBankAccountIban}}\",\r\n  \"insuranceNumber\": \"{{$timestamp}}\",\r\n  \"canSendSms\": \"yes\",\r\n  \"canSendEmail\": \"0\",\r\n  \"cardNumber\": \"{{patientCard}}\",\r\n  \"status\": \"exist\",\r\n  \"payerType\": [\r\n    1\r\n  ],\r\n  \"payerTypeDescription\": \"\",\r\n  \"blacklisted\": false,\r\n  \"patientNotes\": \"\",\r\n  \"medicalNotes\": \"\",\r\n  \"patientRepresentative\": \"Anastazja Jaworska\",\r\n  \"ice\": \"{{$randomBankAccount}}\",\r\n  \"contactDataDescription\": \"\",\r\n  \"originCountry\": \"Polska\",\r\n  \"identityType\": null,\r\n  \"identityNumber\": null,\r\n  \"passportCountryCode\": null,\r\n  \"reimbursementDocument\": null,\r\n  \"reimbursementDocumentNumber\": null,\r\n  \"reimbursementCountryCode\": null,\r\n  \"reimbursementNfzCode\": null,\r\n  \"otherAddress\": 0,\r\n  \"icd10Remarks\": \"\",\r\n  \"externalId\": \"{{patientUuid}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add other informations",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"vaccineSerum\": \"Gruźlica, krztusiec, polio, odra, ospa wietrzna\",\r\n  \"loadHereditary\": \"\",\r\n  \"environmentalAssessment\": \"Nie wymaga dodatkowej pomocy w codziennych czynnościach\",\r\n  \"basicParameters\": \"W pełni sprawności motorycznej\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/other-informations",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"other-informations"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Anna Nowicka (28081862144)",
+					"item": [
+						{
+							"name": "Create patient",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"var uuid = require('uuid');\r",
+											"var myUUID = uuid.v4();\r",
+											"\r",
+											"pm.variables.set(\"patientUuid\", myUUID);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var currentPatientCard = parseInt(pm.variables.get(\"patientCard\"));\r",
+											"currentPatientCard++;\r",
+											"pm.variables.set(\"patientCard\", currentPatientCard);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"firstName\": \"Anna\",\r\n  \"lastName\": \"Nowicka\",\r\n  \"country\": \"Polska\",\r\n  \"city\": \"Łódź\",\r\n  \"street\": \"Romana\",\r\n  \"streetNo\": \"75\",\r\n  \"streetNr\": \"5a\",\r\n  \"email\": \"{{email}}\",\r\n  \"phone\": \"{{telephone}}\",\r\n  \"zip\": \"93-370\",\r\n  \"pesel\": \"28081862144\",\r\n  \"korCountry\": null,\r\n  \"korCity\": null,\r\n  \"korStreet\": null,\r\n  \"korStreetNo\": null,\r\n  \"korStreetNr\": null,\r\n  \"korPhone\": null,\r\n  \"korZip\": null,\r\n  \"nfz\": \"05\",\r\n  \"dateBirth\": \"1928-08-18\",\r\n  \"latitude\": null,\r\n  \"longitude\": null,\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"deleted\": \"no\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"userId\": null,\r\n  \"gender\": \"F\",\r\n  \"identityCard\": \"AMJ 939910\",\r\n  \"passportNumber\": \"{{$randomBankAccountIban}}\",\r\n  \"insuranceNumber\": \"{{$timestamp}}\",\r\n  \"canSendSms\": \"yes\",\r\n  \"canSendEmail\": \"0\",\r\n  \"cardNumber\": \"{{patientCard}}\",\r\n  \"status\": \"exist\",\r\n  \"payerType\": [\r\n    1\r\n  ],\r\n  \"payerTypeDescription\": \"\",\r\n  \"blacklisted\": false,\r\n  \"patientNotes\": \"Pacjentka posiada kartę honorowego dawcy krwi\",\r\n  \"medicalNotes\": \"Przyjmuje stałe leki\",\r\n  \"patientRepresentative\": \"Agnieszka Nowicka\",\r\n  \"ice\": \"{{$randomBankAccount}}\",\r\n  \"contactDataDescription\": \"\",\r\n  \"originCountry\": \"Polska\",\r\n  \"identityType\": null,\r\n  \"identityNumber\": null,\r\n  \"passportCountryCode\": null,\r\n  \"reimbursementDocument\": null,\r\n  \"reimbursementDocumentNumber\": null,\r\n  \"reimbursementCountryCode\": null,\r\n  \"reimbursementNfzCode\": null,\r\n  \"otherAddress\": 0,\r\n  \"icd10Remarks\": \"\",\r\n  \"externalId\": \"{{patientUuid}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add allergy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"allergy\": \"Orzechy ziemne\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/allergy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"allergy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add allergy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"allergy\": \"Surowa marchew\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/allergy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"allergy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add allergy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"allergy\": \"Jad pszczół\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/allergy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"allergy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add hospital treatment",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"description\": \"Rekonwalescencja powypadkowa\",\r\n  \"startDate\": \"2012-04-10\",\r\n  \"endDate\": \"2012-05-10\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/hospital-treatments",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"hospital-treatments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add icd10 code",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"code\": \"E10.09\",\r\n  \"name\": \"E10.9: Cukrzyca insulinozależna bez powikłań\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"deleted\": false,\r\n  \"alert\": true,\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"description\": \"Choroba uwarunkowana genetycznie\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/icd10",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"icd10"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add icd9 code",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"treatment\": \"50.61 - Zamknięcie uszkodzenia wątroby\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"duringVisit\": \"no\",\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\",\r\n  \"date\": \"2005-06-14\",\r\n  \"comments\": \"W trakcie przeprowadzenia zabiegu doszło do uszkodzenia przełyku i powstał krwotok. Udało się zatamować krwawienie, ale w skutek błędu pooperacyjna rekonwalescecja pacjentki trwała dłużej\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/treatments",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"treatments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add pregnancy information",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"cardId\": \"0\",\r\n  \"dateOm\": \"1978-02-21\",\r\n  \"dateOmDescription\": \"Miesiączka trwała 3 dni. Nie pojawiły się żadne dolegliwości odbiegające od normy\",\r\n  \"datePm\": \"13\",\r\n  \"menstruationRegular\": \"yes\",\r\n  \"menstruationComments\": \"Pacjentka po menopauzie\",\r\n  \"pregnancies\": \"1\",\r\n  \"pregnanciesNatural\": \"3\",\r\n  \"pregnanciesCesarean\": \"0\",\r\n  \"pregnanciesMiscarriage\": \"0\",\r\n  \"pregnanciesComments\": \"\",\r\n  \"comments\": null,\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeMod\": \"{{currentDate}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/pregnancy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"pregnancy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add other informations",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"vaccineSerum\": \"Gruźlica, zakażenia pneumokokowe, błonica, krztusiec, polio, odra, świnkaa, różyczka, tężec, wirusowe zapalenie wątroby typu b, zakażenie przeciwko Haeopmhilius influenzae typu B, ospa wietrzna, kleszczowe zapalenie mózgu, wirusowe zapalenie wątroby typu A, grypa, zakażenie rotawirusowe, zakażenia meningokokowe\",\r\n  \"loadHereditary\": \"cukrzyca insulinozależna \",\r\n  \"environmentalAssessment\": \"Wymaga pomocy w codziennych czynnościach\",\r\n  \"basicParameters\": \"Porusza się z pomocą wózka inwalidzkiego\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/other-informations",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"other-informations"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Martyna Król (99050381029)",
+					"item": [
+						{
+							"name": "Create patient",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"var uuid = require('uuid');\r",
+											"var myUUID = uuid.v4();\r",
+											"\r",
+											"pm.variables.set(\"patientUuid\", myUUID);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var currentPatientCard = parseInt(pm.variables.get(\"patientCard\"));\r",
+											"currentPatientCard++;\r",
+											"pm.variables.set(\"patientCard\", currentPatientCard);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"firstName\": \"Martyna\",\r\n  \"lastName\": \"Król\",\r\n  \"country\": \"Polska\",\r\n  \"city\": \"Gdańsk\",\r\n  \"street\": \"Tarcice\",\r\n  \"streetNo\": \"98\",\r\n  \"streetNr\": \"\",\r\n  \"email\": \"{{email}}\",\r\n  \"phone\": \"{{telephone}}\",\r\n  \"zip\": \"80-718\",\r\n  \"pesel\": \"99050381029\",\r\n  \"korCountry\": null,\r\n  \"korCity\": null,\r\n  \"korStreet\": null,\r\n  \"korStreetNo\": null,\r\n  \"korStreetNr\": null,\r\n  \"korPhone\": null,\r\n  \"korZip\": null,\r\n  \"nfz\": \"11\",\r\n  \"dateBirth\": \"1999-05-03\",\r\n  \"latitude\": null,\r\n  \"longitude\": null,\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"deleted\": \"no\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"userId\": null,\r\n  \"gender\": \"F\",\r\n  \"identityCard\": \"AMJ 939960\",\r\n  \"passportNumber\": \"{{$randomBankAccountIban}}\",\r\n  \"insuranceNumber\": \"{{$timestamp}}\",\r\n  \"canSendSms\": \"yes\",\r\n  \"canSendEmail\": \"0\",\r\n  \"cardNumber\": \"{{patientCard}}\",\r\n  \"status\": \"exist\",\r\n  \"payerType\": [\r\n    1\r\n  ],\r\n  \"payerTypeDescription\": \"\",\r\n  \"blacklisted\": false,\r\n  \"patientNotes\": \"Posiada kartę honorowego dawcy krwi\",\r\n  \"medicalNotes\": \"\",\r\n  \"patientRepresentative\": \"Agnieszka Nowicka\",\r\n  \"ice\": \"{{$randomBankAccount}}\",\r\n  \"contactDataDescription\": \"\",\r\n  \"originCountry\": \"Polska\",\r\n  \"identityType\": null,\r\n  \"identityNumber\": null,\r\n  \"passportCountryCode\": null,\r\n  \"reimbursementDocument\": null,\r\n  \"reimbursementDocumentNumber\": null,\r\n  \"reimbursementCountryCode\": null,\r\n  \"reimbursementNfzCode\": null,\r\n  \"otherAddress\": 0,\r\n  \"icd10Remarks\": \"\",\r\n  \"externalId\": \"{{patientUuid}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add allergy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"allergy\": \"Orzechy ziemne\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/allergy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"allergy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add hospital treatment",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"description\": \"Rekonwalescencja pooperacyjna\",\r\n  \"startDate\": \"2012-04-10\",\r\n  \"endDate\": \"2012-04-17\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/hospital-treatments",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"hospital-treatments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add icd10 code",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"code\": \"S42.4\",\r\n  \"name\": \"S42.4 - Złamanie nasady dalszej kości ramiennej\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"deleted\": false,\r\n  \"alert\": false,\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"description\": \"Do złamania doszło w wyniku upadku podczas jazdy na rolkach. Złamanie nastąpiło w czerwcu 2017 roku\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/icd10",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"icd10"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add icd9 code",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"treatment\": \"34.82 - Szycie rany przepony\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"duringVisit\": \"no\",\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\",\r\n  \"date\": \"2012-04-10\",\r\n  \"comments\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/treatments",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"treatments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add pregnancy information",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"cardId\": \"0\",\r\n  \"dateOm\": \"1978-02-21\",\r\n  \"dateOmDescription\": \"Miesiączka trwała 3 dni. Nie pojawiły się żadne dolegliwości odbiegające od normy\",\r\n  \"datePm\": \"13\",\r\n  \"menstruationRegular\": \"yes\",\r\n  \"menstruationComments\": \"Pacjentka po menopauzie\",\r\n  \"pregnancies\": \"1\",\r\n  \"pregnanciesNatural\": \"3\",\r\n  \"pregnanciesCesarean\": \"0\",\r\n  \"pregnanciesMiscarriage\": \"0\",\r\n  \"pregnanciesComments\": \"\",\r\n  \"comments\": null,\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeMod\": \"{{currentDate}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/pregnancy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"pregnancy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add other informations",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"vaccineSerum\": \"Gruźlica, zakażenia pneumokokowe, błonica, krztusiec, polio, odra, świnkaa, różyczka, tężec, wirusowe zapalenie wątroby typu b, zakażenie przeciwko Haeopmhilius influenzae typu B, ospa wietrzna, kleszczowe zapalenie mózgu, wirusowe zapalenie wątroby typu A, grypa, zakażenie rotawirusowe, zakażenia meningokokowe\",\r\n  \"loadHereditary\": \"cukrzyca insulinozależna \",\r\n  \"environmentalAssessment\": \"Wymaga pomocy w codziennych czynnościach\",\r\n  \"basicParameters\": \"Porusza się z pomocą wózka inwalidzkiego\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/other-informations",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"other-informations"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Kaja Dudek (22051441847)",
+					"item": [
+						{
+							"name": "Create patient",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"var uuid = require('uuid');\r",
+											"var myUUID = uuid.v4();\r",
+											"\r",
+											"pm.variables.set(\"patientUuid\", myUUID);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var currentPatientCard = parseInt(pm.variables.get(\"patientCard\"));\r",
+											"currentPatientCard++;\r",
+											"pm.variables.set(\"patientCard\", currentPatientCard);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"firstName\": \"Kaja\",\r\n  \"lastName\": \"Dudek\",\r\n  \"country\": \"Polska\",\r\n  \"city\": \"Warszawa\",\r\n  \"street\": \"Wronia\",\r\n  \"streetNo\": \"100\",\r\n  \"streetNr\": \"8/16c\",\r\n  \"email\": \"{{email}}\",\r\n  \"phone\": \"{{telephone}}\",\r\n  \"zip\": \"00-840\",\r\n  \"pesel\": \"22051441847\",\r\n  \"korCountry\": null,\r\n  \"korCity\": null,\r\n  \"korStreet\": null,\r\n  \"korStreetNo\": null,\r\n  \"korStreetNr\": null,\r\n  \"korPhone\": null,\r\n  \"korZip\": null,\r\n  \"nfz\": \"07\",\r\n  \"dateBirth\": \"1922-05-14\",\r\n  \"latitude\": null,\r\n  \"longitude\": null,\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"deleted\": \"no\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"userId\": null,\r\n  \"gender\": \"F\",\r\n  \"identityCard\": \"AMJ 653700\",\r\n  \"passportNumber\": \"{{$randomBankAccountIban}}\",\r\n  \"insuranceNumber\": \"{{$timestamp}}\",\r\n  \"canSendSms\": \"yes\",\r\n  \"canSendEmail\": \"0\",\r\n  \"cardNumber\": \"{{patientCard}}\",\r\n  \"status\": \"exist\",\r\n  \"payerType\": [\r\n    1\r\n  ],\r\n  \"payerTypeDescription\": \"\",\r\n  \"blacklisted\": false,\r\n  \"patientNotes\": \"Posiada kartę honorowego dawcy krwi\",\r\n  \"medicalNotes\": \"Przyjmuje stałe leki\",\r\n  \"patientRepresentative\": \"\",\r\n  \"ice\": \"{{$randomBankAccount}}\",\r\n  \"contactDataDescription\": \"\",\r\n  \"originCountry\": \"Polska\",\r\n  \"identityType\": null,\r\n  \"identityNumber\": null,\r\n  \"passportCountryCode\": null,\r\n  \"reimbursementDocument\": null,\r\n  \"reimbursementDocumentNumber\": null,\r\n  \"reimbursementCountryCode\": null,\r\n  \"reimbursementNfzCode\": null,\r\n  \"otherAddress\": 0,\r\n  \"icd10Remarks\": \"\",\r\n  \"externalId\": \"{{patientUuid}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add allergy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"allergy\": \"Drobnoustroje\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/allergy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"allergy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add hospital treatment",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"description\": \"Rekonwalescencja pooperacyjna\",\r\n  \"startDate\": \"2012-04-10\",\r\n  \"endDate\": \"2012-05-10\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/hospital-treatments",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"hospital-treatments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add icd10 code",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"code\": \"E10.09\",\r\n  \"name\": \"E10.9: Cukrzyca insulinozależna bez powikłań\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"deleted\": false,\r\n  \"alert\": true,\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"description\": \"Choroba uwarunkowana genetycznie\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/icd10",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"icd10"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add icd9 code",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"treatment\": \"50.61 - Zamknięcie uszkodzenia wątroby\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"duringVisit\": \"no\",\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\",\r\n  \"date\": \"2012-04-10\",\r\n  \"comments\": \"W trakcie przeprowadzenia zabiegu doszło do uszkodzenia przełyku i powstał krwotok. Udało się zatamować krwawienie, ale w skutek błędu pooperacyjna rekonwalescecja pacjentki trwała dłużej\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/treatments",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"treatments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add pregnancy information",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"cardId\": \"0\",\r\n  \"dateOm\": \"\",\r\n  \"dateOmDescription\": \"\",\r\n  \"datePm\": \"13\",\r\n  \"menstruationRegular\": \"yes\",\r\n  \"menstruationComments\": \"Pacjentka po menopauzie\",\r\n  \"pregnancies\": \"7\",\r\n  \"pregnanciesNatural\": \"3\",\r\n  \"pregnanciesCesarean\": \"2\",\r\n  \"pregnanciesMiscarriage\": \"2\",\r\n  \"pregnanciesComments\": \"\",\r\n  \"comments\": null,\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeMod\": \"{{currentDate}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/pregnancy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"pregnancy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add other informations",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"vaccineSerum\": \"Gruźlica, zakażenia pneumokokowe, błonica, krztusiec, polio, odra, świnkaa, różyczka, tężec, wirusowe zapalenie wątroby typu b, zakażenie przeciwko Haeopmhilius influenzae typu B, ospa wietrzna, kleszczowe zapalenie mózgu, wirusowe zapalenie wątroby typu A, grypa, zakażenie rotawirusowe, zakażenia meningokokowe\",\r\n  \"loadHereditary\": \"cukrzyca insulinozależna \",\r\n  \"environmentalAssessment\": \"Wymaga pomocy w codziennych czynnościach\",\r\n  \"basicParameters\": \"Porusza się z pomocą wózka inwalidzkiego\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/other-informations",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"other-informations"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Barbara Olszewska (17260928588)",
+					"item": [
+						{
+							"name": "Create patient",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"var uuid = require('uuid');\r",
+											"var myUUID = uuid.v4();\r",
+											"\r",
+											"pm.variables.set(\"patientUuid\", myUUID);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var currentPatientCard = parseInt(pm.variables.get(\"patientCard\"));\r",
+											"currentPatientCard++;\r",
+											"pm.variables.set(\"patientCard\", currentPatientCard);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"firstName\": \"Barbara\",\r\n  \"lastName\": \"Olszewska\",\r\n  \"country\": \"Polska\",\r\n  \"city\": \"Bydgoszcz\",\r\n  \"street\": \"Wały Jagiellońskie\",\r\n  \"streetNo\": \"21\",\r\n  \"streetNr\": \"\",\r\n  \"email\": \"{{email}}\",\r\n  \"phone\": \"{{telephone}}\",\r\n  \"zip\": \"85-131\",\r\n  \"pesel\": \"17260928588\",\r\n  \"korCountry\": null,\r\n  \"korCity\": null,\r\n  \"korStreet\": null,\r\n  \"korStreetNo\": null,\r\n  \"korStreetNr\": null,\r\n  \"korPhone\": null,\r\n  \"korZip\": null,\r\n  \"nfz\": \"2\",\r\n  \"dateBirth\": \"2017-06-09\",\r\n  \"latitude\": null,\r\n  \"longitude\": null,\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"deleted\": \"no\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"userId\": null,\r\n  \"gender\": \"F\",\r\n  \"identityCard\": \"\",\r\n  \"passportNumber\": \"{{$randomBankAccountIban}}\",\r\n  \"insuranceNumber\": \"{{$timestamp}}\",\r\n  \"canSendSms\": \"yes\",\r\n  \"canSendEmail\": \"0\",\r\n  \"cardNumber\": \"{{patientCard}}\",\r\n  \"status\": \"exist\",\r\n  \"payerType\": [\r\n    1\r\n  ],\r\n  \"payerTypeDescription\": \"\",\r\n  \"blacklisted\": false,\r\n  \"patientNotes\": \"\",\r\n  \"medicalNotes\": \"\",\r\n  \"patientRepresentative\": \"Mariusz Olszewski\",\r\n  \"ice\": \"{{$randomBankAccount}}\",\r\n  \"contactDataDescription\": \"\",\r\n  \"originCountry\": \"Polska\",\r\n  \"identityType\": null,\r\n  \"identityNumber\": null,\r\n  \"passportCountryCode\": null,\r\n  \"reimbursementDocument\": null,\r\n  \"reimbursementDocumentNumber\": null,\r\n  \"reimbursementCountryCode\": null,\r\n  \"reimbursementNfzCode\": null,\r\n  \"otherAddress\": 0,\r\n  \"icd10Remarks\": \"\",\r\n  \"externalId\": \"{{patientUuid}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add other informations",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"vaccineSerum\": \"zakażenia pneumokokowe, krztusiec, polio, odra, zakażenie rotawirusowe\",\r\n  \"loadHereditary\": \"Hemofilia\",\r\n  \"environmentalAssessment\": \"\",\r\n  \"basicParameters\": \"Rozwój prawidłowy\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/other-informations",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"other-informations"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Seweryn Wiśniewski (86080763712)",
+					"item": [
+						{
+							"name": "Create patient",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"var uuid = require('uuid');\r",
+											"var myUUID = uuid.v4();\r",
+											"\r",
+											"pm.variables.set(\"patientUuid\", myUUID);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var currentPatientCard = parseInt(pm.variables.get(\"patientCard\"));\r",
+											"currentPatientCard++;\r",
+											"pm.variables.set(\"patientCard\", currentPatientCard);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"firstName\": \"Seweryn\",\r\n  \"lastName\": \"Wiśniewski\",\r\n  \"country\": \"Polska\",\r\n  \"city\": \"Wrocław\",\r\n  \"street\": \"Maleczyńskich Ewy i Karola\",\r\n  \"streetNo\": \"126\",\r\n  \"streetNr\": \"\",\r\n  \"email\": \"{{email}}\",\r\n  \"phone\": \"{{telephone}}\",\r\n  \"zip\": \"52-428\",\r\n  \"pesel\": \"86080763712\",\r\n  \"korCountry\": null,\r\n  \"korCity\": null,\r\n  \"korStreet\": null,\r\n  \"korStreetNo\": null,\r\n  \"korStreetNr\": null,\r\n  \"korPhone\": null,\r\n  \"korZip\": null,\r\n  \"nfz\": \"01\",\r\n  \"dateBirth\": \"1986-08-07\",\r\n  \"latitude\": null,\r\n  \"longitude\": null,\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"deleted\": \"no\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"userId\": null,\r\n  \"gender\": \"M\",\r\n  \"identityCard\": \"AMJ 391657\",\r\n  \"passportNumber\": \"{{$randomBankAccountIban}}\",\r\n  \"insuranceNumber\": \"{{$timestamp}}\",\r\n  \"canSendSms\": \"yes\",\r\n  \"canSendEmail\": \"0\",\r\n  \"cardNumber\": \"{{patientCard}}\",\r\n  \"status\": \"exist\",\r\n  \"payerType\": [\r\n    1\r\n  ],\r\n  \"payerTypeDescription\": \"\",\r\n  \"blacklisted\": true,\r\n  \"patientNotes\": \"Pacjent notorycznie spóźnia się na wizyty w granicach 10 minut.\",\r\n  \"medicalNotes\": \"Lordoza\",\r\n  \"patientRepresentative\": \"\",\r\n  \"ice\": \"{{$randomBankAccount}}\",\r\n  \"contactDataDescription\": \"\",\r\n  \"originCountry\": \"Polska\",\r\n  \"identityType\": null,\r\n  \"identityNumber\": null,\r\n  \"passportCountryCode\": null,\r\n  \"reimbursementDocument\": null,\r\n  \"reimbursementDocumentNumber\": null,\r\n  \"reimbursementCountryCode\": null,\r\n  \"reimbursementNfzCode\": null,\r\n  \"otherAddress\": 0,\r\n  \"icd10Remarks\": \"\",\r\n  \"externalId\": \"{{patientUuid}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add allergy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"allergy\": \"Drobnoustroje\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/allergy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"allergy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add allergy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"allergy\": \"Jad pszczół\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/allergy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"allergy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add icd10 code",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"code\": \"Q31.1\",\r\n  \"name\": \"Q31.1 - Wrodzone zwężenie podgłośniowe\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"deleted\": false,\r\n  \"alert\": true,\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"description\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/icd10",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"icd10"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add icd10 code",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"code\": \"S22.2\",\r\n  \"name\": \"S22.2 - Złamanie mostka\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"deleted\": false,\r\n  \"alert\": false,\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"description\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/icd10",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"icd10"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add other informations",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"vaccineSerum\": \"Gruźlica, zakażenia pneumokokowe, błonica, krztusiec, polio, odra, świnka, różyczka, tężec, wirusowe zapalenie wątroby typu b, zakażenie przeciwko Haeopmhilius influenzae typu B, ospa wietrzna, kleszczowe zapalenie mózgu, wirusowe zapalenie wątroby typu A, grypa, zakażenie rotawirusowe, zakażenia meningokokowe\",\r\n  \"loadHereditary\": \"cukrzyca insulinoniezależna, ślepota barw, astygmatyzm\",\r\n  \"environmentalAssessment\": \"Nie wymaga dodatkowej pomocy w codziennych czynnościach\",\r\n  \"basicParameters\": \"W pełni sprawności motorycznej\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/other-informations",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"other-informations"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add icd9 code",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"treatment\": \"84.94 - Rekonstrukcja wrodzonych i nabytych deformacji - klatka piersiowa (żebra, mostek)\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"duringVisit\": \"no\",\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\",\r\n  \"date\": \"2005-06-14\",\r\n  \"comments\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/treatments",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"treatments"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Genowefa Sawicka (87011850880)",
+					"item": [
+						{
+							"name": "Create patient",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"var uuid = require('uuid');\r",
+											"var myUUID = uuid.v4();\r",
+											"\r",
+											"pm.variables.set(\"patientUuid\", myUUID);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var currentPatientCard = parseInt(pm.variables.get(\"patientCard\"));\r",
+											"currentPatientCard++;\r",
+											"pm.variables.set(\"patientCard\", currentPatientCard);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"firstName\": \"Genowefa\",\r\n  \"lastName\": \"Sawicka\",\r\n  \"country\": \"Polska\",\r\n  \"city\": \"Łódź\",\r\n  \"street\": \"Zapłocie\",\r\n  \"streetNo\": \"44\",\r\n  \"streetNr\": \"\",\r\n  \"email\": \"{{email}}\",\r\n  \"phone\": \"{{telephone}}\",\r\n  \"zip\": \"94-285\",\r\n  \"pesel\": \"87011850880\",\r\n  \"korCountry\": null,\r\n  \"korCity\": null,\r\n  \"korStreet\": null,\r\n  \"korStreetNo\": null,\r\n  \"korStreetNr\": null,\r\n  \"korPhone\": null,\r\n  \"korZip\": null,\r\n  \"nfz\": \"05\",\r\n  \"dateBirth\": \"1987-01-18\",\r\n  \"latitude\": null,\r\n  \"longitude\": null,\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"deleted\": \"no\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"userId\": null,\r\n  \"gender\": \"F\",\r\n  \"identityCard\": \"AMJ 564884\",\r\n  \"passportNumber\": \"{{$randomBankAccountIban}}\",\r\n  \"insuranceNumber\": \"{{$timestamp}}\",\r\n  \"canSendSms\": \"yes\",\r\n  \"canSendEmail\": \"0\",\r\n  \"cardNumber\": \"{{patientCard}}\",\r\n  \"status\": \"exist\",\r\n  \"payerType\": [\r\n    1\r\n  ],\r\n  \"payerTypeDescription\": \"\",\r\n  \"blacklisted\": false,\r\n  \"patientNotes\": \"Przejawia objawy agresji, obawia się promieniowania rentgenowskiego\",\r\n  \"medicalNotes\": \"Astygmatyzm\",\r\n  \"patientRepresentative\": \"Konstanty Wieczorek\",\r\n  \"ice\": \"{{$randomBankAccount}}\",\r\n  \"contactDataDescription\": \"\",\r\n  \"originCountry\": \"Polska\",\r\n  \"identityType\": null,\r\n  \"identityNumber\": null,\r\n  \"passportCountryCode\": null,\r\n  \"reimbursementDocument\": null,\r\n  \"reimbursementDocumentNumber\": null,\r\n  \"reimbursementCountryCode\": null,\r\n  \"reimbursementNfzCode\": null,\r\n  \"otherAddress\": 0,\r\n  \"icd10Remarks\": \"\",\r\n  \"externalId\": \"{{patientUuid}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add hospital treatment",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"description\": \"Rekonwalescencja poporodowa\",\r\n  \"startDate\": \"1989-01-27\",\r\n  \"endDate\": \"1989-02-10\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/hospital-treatments",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"hospital-treatments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add icd10 code",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"code\": \"E10.09\",\r\n  \"name\": \"E10.9: Cukrzyca insulinozależna bez powikłań\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"deleted\": false,\r\n  \"alert\": true,\r\n  \"timeMod\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeDelete\": null,\r\n  \"userDelete\": null,\r\n  \"description\": \"Choroba uwarunkowana genetycznie\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/icd10",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"icd10"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add icd9 code",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"treatment\": \"69.7 - Wprowadzenie wewnątrzmacicznej wkładki antykoncepcyjnej\",\r\n  \"deleted\": \"no\",\r\n  \"cardId\": 0,\r\n  \"duringVisit\": \"no\",\r\n  \"timeDelete\": \"\",\r\n  \"userDelete\": \"\",\r\n  \"date\": \"2005-06-14\",\r\n  \"comments\": \"Wkładka Kyleena - ważność 5 lat\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/treatments",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"treatments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add pregnancy information",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"cardId\": \"0\",\r\n  \"dateOm\": \"2022-12-21\",\r\n  \"dateOmDescription\": \"Miesiączka trwała 3 dni. Nie pojawiły się żadne dolegliwości odbiegające od normy\",\r\n  \"datePm\": \"13\",\r\n  \"menstruationRegular\": \"yes\",\r\n  \"menstruationComments\": \"Długość cyklu średnio 28-31 dni\",\r\n  \"pregnancies\": \"2\",\r\n  \"pregnanciesNatural\": \"1\",\r\n  \"pregnanciesCesarean\": \"0\",\r\n  \"pregnanciesMiscarriage\": \"1\",\r\n  \"pregnanciesComments\": \"Urodziła w 2005 roku. Przy porodzie nie wystąpiły żadne komplikacje. Poronienie w 2007 roku\",\r\n  \"comments\": null,\r\n  \"userAdd\": \"{{firstUserUuid}}\",\r\n  \"timeAdd\": \"{{currentDate}}\",\r\n  \"userMod\": \"{{firstUserUuid}}\",\r\n  \"timeMod\": \"{{currentDate}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/pregnancy",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"pregnancy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add other informations",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"vaccineSerum\": \"Gruźlica, zakażenia pneumokokowe, błonica, krztusiec, polio, odra, świnka, różyczka, tężec, wirusowe zapalenie wątroby typu b, zakażenie przeciwko Haeopmhilius influenzae typu B, ospa wietrzna, kleszczowe zapalenie mózgu, wirusowe zapalenie wątroby typu A, grypa, zakażenie rotawirusowe, zakażenia meningokokowe\",\r\n  \"loadHereditary\": \"Astygmatyzm, hemofilia\",\r\n  \"environmentalAssessment\": \"Nie wymaga dodatkowej pomocy w codziennych czynnościach\",\r\n  \"basicParameters\": \"W pełni sprawności motorycznej\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{basic-url}}api/patient/{{patientUuid}}/other-informations",
+									"host": [
+										"{{basic-url}}api"
+									],
+									"path": [
+										"patient",
+										"{{patientUuid}}",
+										"other-informations"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var moment = require('moment');",
+							"pm.variables.set(\"currentDate\", moment().format(\"YYYY-MM-DD HH:mm:ss\"));",
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						]
+					}
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "{{username}}",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "{{password}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "email",
+			"value": "your data goes here",
+			"type": "string"
+		},
+		{
+			"key": "telephone",
+			"value": "your data goes here",
+			"type": "string"
+		},
+		{
+			"key": "basic-url",
+			"value": "your data goes here",
+			"type": "string"
+		},
+		{
+			"key": "firstUserUuid",
+			"value": "your data goes here",
+			"type": "string"
+		},
+		{
+			"key": "patientCard",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "eventUuid",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "patientUuid",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "currentDate",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
