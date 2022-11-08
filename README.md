@@ -19,6 +19,7 @@ My name is Kamila Marcinek. I started my adventure with computer science in tech
 - Reporting bugs
 - Creating test cases
 - Creating diagrams and decision tables
+- Rest API testing
 
 ## Sample Postman collection
 MEDchart - autofill application.postman_collection.json - this file is a sample postman collection created by me to autofill new applications, that we use in work. You will not be able to test it on yourself, because you don't have your own application in MEDchart, but you can check scripts for example.
