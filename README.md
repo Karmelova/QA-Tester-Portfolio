@@ -14,7 +14,8 @@ My name is Kamila Marcinek. I started my adventure with computer science in tech
 
 ## Tech skills
 - DevTools
-- SQL, JavaScript, C#, HTML, CSS, Cypress (in progress)
+- SQL, JavaScript, C#, HTML, CSS
+- Cypress (in progress)
 - Software testing
 - Reporting bugs
 - Creating test cases
